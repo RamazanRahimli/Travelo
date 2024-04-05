@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+header #container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 92%;
+  height: 100%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+header #container .logoBox {
+  cursor: pointer;
+}
+header #container #menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header #container #menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+header #container #menu ul li {
+  list-style-type: none;
+  cursor: pointer;
+  font-family: "", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+header #container #menu ul li:hover {
+  color: #40CEC1;
+}
+header #container #menu ul #blogHover:hover #blogMenu {
+  display: block;
+  background-color: #00ffff;
+  position: absolute;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+header #container #menu ul #blogHover a {
+  text-decoration: none;
+  color: black;
+  padding: 35px 0;
+}
+header #container #menu ul #blogHover #blogMenu {
+  display: none;
+}
+header #container #iconBox {
+  display: flex;
+  gap: 15px;
+}
+header #container #iconBox i {
+  color: #99a0a0;
+}
+header #container #iconBox i:hover {
+  color: red;
+}
+header #container #iconBox a {
+  text-decoration: none;
+  color: black;
+}
+header #container #iconBox .iconBoxColor i {
+  color: red;
+}
+header #searchBox {
+  width: 8%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header #searchBox i {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+#imgOneBox {
+  width: 100%;
+  min-height: 88vh;
+  background-color: #00ffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#imgOneBox .imgOnecontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#imgOneBox .imgOnecontainer #leftbutton {
+  padding: 30px 20px;
+  background-color: #99a0a0;
+}
+#imgOneBox .imgOnecontainer #leftbutton:hover {
+  background-color: white;
+}
+#imgOneBox .imgOnecontainer #rightButton {
+  padding: 30px 20px;
+  background-color: #99a0a0;
+}
+#imgOneBox .imgOnecontainer #rightButton:hover {
+  background-color: white;
+}
